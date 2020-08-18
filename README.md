@@ -7,6 +7,7 @@ This two-day workshop uses a mixture of short lectures and live demos to introdu
 No previous experience with spatial data is expected. Participants should have experience with Python. Some knowledge of pandas and/or numpy would be helpful but is not required. 
 
 This workshop is offered by the EPSRC Centre for Doctoral Training in Next Generation Computational Modelling ([CDT-NGCM](http://www.ngcm.soton.ac.uk/))
+
 Registration on EnventBrite: https://www.eventbrite.co.uk/e/cdt-ngcm-introduction-to-spatial-data-analysis-and-mapping-with-python-tickets-113099585906
 
 ### Instructors
