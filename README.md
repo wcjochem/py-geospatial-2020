@@ -27,7 +27,7 @@ Day 2
 
 
 ## Installation and set-up
-This workshop will require a suite of somewhat specialised packages that depend on some low-level libraries which are non-trivial to install (especially on Windows). I recommend that you use the [conda](https://docs.conda.io/projects/conda/en/latest/index.html) package manager to install them on your system.
+This workshop will require a suite of somewhat specialised packages that depend on some low-level libraries which are non-trivial to install (especially on Windows). I recommend that you use the [conda](https://docs.conda.io/projects/conda/en/latest/index.html) package manager to install them on your system (and not something like `pip`).
 
 First install conda (or [miniconda](https://docs.conda.io/en/latest/miniconda.html)) on your system following the instructions on their site. Then enter your terminal or command prompt program. Navigate to where you have downloaded or cloned the workshop files. Finally, create a new environment and install all the required packages and their dependencies by running this command:
 
@@ -35,9 +35,19 @@ First install conda (or [miniconda](https://docs.conda.io/en/latest/miniconda.ht
 conda env create -f environment.yml 
 ```
 
+This will take a few moments to download and install packages. You may be promped to confirm the installation. When that step has finished, test your install by running the following small script.
+
+```
+# enable the environment
+conda activate py-geospatial-2020
+
+# run the test script from the workshop files
+python check_setup.py
+```
+
 Alternatively, the practical notebooks can be run in Binder through this link: [ZZZ](). Note that Binder has some resource limitations on processing power and memory.
 
 ### Acknowledgements
-The workshop 
+This workshop benefited from 
 
 
