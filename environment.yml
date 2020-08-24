@@ -1,0 +1,15 @@
+name: py-geospatial-2020
+channels:
+    - defaults
+    - conda-forge
+dependencies:
+    - geopandas
+    - pygeos
+    - contextily
+    - rasterio
+    - geoplot
+    - folium
+    - scikit-learn
+    - ipympl
+    - osmnx
+    - networkx

@@ -12,3 +12,32 @@ Registration on EnventBrite: https://www.eventbrite.co.uk/e/cdt-ngcm-introductio
 
 ### Instructors
 * [Chris Jochem](https://www.wcjochem.com) - [WorldPop](https://www.worldpop.org) in the [School of Geography and Environmental Science](https://www.southampton.ac.uk/geography), Univ. of Southampton
+
+
+## Workshop outline
+
+### Schedule
+Day 1
+
+Day 2
+
+### Expectations
+
+## Materials
+
+
+## Installation and set-up
+This workshop will require a suite of somewhat specialised packages that depend on some low-level libraries which are non-trivial to install (especially on Windows). I recommend that you use the [conda](https://docs.conda.io/projects/conda/en/latest/index.html) package manager to install them on your system.
+
+First install conda (or [miniconda](https://docs.conda.io/en/latest/miniconda.html)) on your system following the instructions on their site. Then enter your terminal or command prompt program. Navigate to where you have downloaded or cloned the workshop files. Finally, create a new environment and install all the required packages and their dependencies by running this command:
+
+```
+conda env create -f environment.yml 
+```
+
+Alternatively, the practical notebooks can be run in Binder through this link: [ZZZ](). Note that Binder has some resource limitations on processing power and memory.
+
+### Acknowledgements
+The workshop 
+
+
