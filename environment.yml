@@ -5,6 +5,7 @@ channels:
 dependencies:
     - geopandas
     - pygeos
+    - pyproj
     - contextily
     - rasterio
     - geoplot
