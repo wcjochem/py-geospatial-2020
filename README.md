@@ -1,5 +1,7 @@
 # Introduction to spatial data analysis and mapping with Python
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/wcjochem/py-geospatial-2020/master)
+
 Geographic data seem to be everywhere now – from geo-tagged photos and tweets, GPS watches and fitness trackers, spatially-referenced survey data, even high-resolution satellite imagery. While such data present many new opportunities to study our world, they also present unique challenges for analyses. The objective of this workshop is to introduce participants to the fundamentals of how to use, combine, analyse, and present spatial data while avoiding common pitfalls.
 
 This two-day workshop uses a mixture of short lectures and live demos to introduce concepts, and then the majority of time will be spent in hands-on labs working with real datasets. Participants will meet virtually and have the opportunity to collaborate in small groups for the activities. All material uses Python and several key packages (including geopandas, rasterio, pySAL, and folium). The workshop is intended for anyone wishing to gain familiarity with spatial data and core analysis techniques.
@@ -45,7 +47,7 @@ conda activate py-geospatial-2020
 python check_setup.py
 ```
 
-Alternatively, the practical notebooks can be run in Binder through this link: [ZZZ](). Note that Binder has some resource limitations on processing power and memory.
+Alternatively, the practical notebooks can be run in Binder through this link: [https://mybinder.org/v2/gh/wcjochem/py-geospatial-2020/master](https://mybinder.org/v2/gh/wcjochem/py-geospatial-2020/master). Note that Binder has some resource limitations on processing power and memory.
 
 ### Acknowledgements
 This workshop benefited from 
