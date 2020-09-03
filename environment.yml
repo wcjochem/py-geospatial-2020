@@ -11,7 +11,5 @@ dependencies:
     - geoplot
     - folium
     - scikit-learn
-    - ipympl
     - osmnx
     - networkx
-    - sqlalchemy
