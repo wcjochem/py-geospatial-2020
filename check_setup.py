@@ -12,7 +12,7 @@ else:
     try:
         import geopandas
         
-        dat = geopandas.read_file()
+        dat = geopandas.read_file(geopandas.datasets.get_path('naturalearth_cities'))
         print("Set-up correct!")
     else Exception as e:
         print("Unable to read data file.")
