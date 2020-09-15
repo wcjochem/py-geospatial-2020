@@ -14,7 +14,7 @@ else:
         
         dat = geopandas.read_file(geopandas.datasets.get_path('naturalearth_cities'))
         print("Set-up correct!")
-    else Exception as e:
+    except Exception as e:
         print("Unable to read data file.")
         print(e)
         
