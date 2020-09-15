@@ -61,19 +61,21 @@ Run the test script from the workshop files:
 python check_setup.py
 ```
 
-The practicals use [Jupyter Notebooks](https://jupyter.org/index.html). If you want to run the notebooks locally on your machine, you will need to have Jupyter installed. This step can also be done within conda. From the command prompt enter:
+If you get an error in this step, please take a screenshot or copy the complete error message and contact the instructors for assistance.
 
-```
-conda install -c conda-forge notebook
-```
-
-Then launch the interface by typing the following in the command prompt:
+The practicals use [Jupyter Notebooks](https://jupyter.org/index.html). This should have been automatically installed in the previous conda install step. Launch the Notebook interface by typing the following in the command prompt (you should still be in the location of the workshop files):
 
 ```
 jupyter notebook
 ```
 
-The workshop folder contains all the Practicals in notebook format in the `notebooks` directory.
+The workshop folder contains all the Practicals in notebook format in the `notebooks` directory. You are now ready 
+
+If for some reason this last step doesn't work, you may need to install Jupyter. This should This can also be done within conda. From the command prompt enter:
+
+```
+conda install -c conda-forge notebook
+```
 
 ### Non-installation alternative 
 Alternatively, if you can't (or don't want to) install Python locally, the practical notebooks can be run in Binder through this link: [https://mybinder.org/v2/gh/wcjochem/py-geospatial-2020/master](https://mybinder.org/v2/gh/wcjochem/py-geospatial-2020/master). Be patient when first loading the repository.
