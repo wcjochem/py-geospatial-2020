@@ -71,7 +71,7 @@ jupyter notebook
 
 The workshop folder contains all the Practicals in notebook format in the `notebooks` directory. You are now ready 
 
-If for some reason this last step doesn't work, you may need to install Jupyter. This should This can also be done within conda. From the command prompt enter:
+If for some reason this last step doesn't work, you may need to install Jupyter. This can also be done within conda. From the command prompt enter:
 
 ```
 conda install -c conda-forge notebook
