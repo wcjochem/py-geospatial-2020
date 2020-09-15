@@ -14,42 +14,54 @@ Registration on EnventBrite: https://www.eventbrite.co.uk/e/cdt-ngcm-introductio
 
 ### Instructors
 * [Chris Jochem](https://www.wcjochem.com) - [WorldPop](https://www.worldpop.org) in the [School of Geography and Environmental Science](https://www.southampton.ac.uk/geography), Univ. of Southampton
-
+* Josephine Baulch - [School of Geography and Environmental Science](https://www.southampton.ac.uk/geography/postgraduate/research_students/jb7e16.page), Univ. of Southampton
+* Chris Tomsett - [School of Geography and Environmental Science](https://www.southampton.ac.uk/geography/postgraduate/research_students/ct9g13.page), Univ. of Southampton
 
 ## Workshop outline
 
 ### Schedule
-Day 1
-
-Day 2
+The workshop will run for 2 full days, starting from 9am and running to about 5pm each day. There will be morning, afternoon, and lunch breaks.
 
 ### Expectations
+Participants are asked to engage and to be active participants for the full two days. 
+
+This workshop is different because it now has to be online. We will use a blend of live lectures, practicals and chat discussions on our MS Teams site. The instructors will be available for guidance and support, answering technical questions, and the practicals are meant to provide experience in key concepts. Additional materials and coding challenges will be suggested for further practice.
 
 ## Materials
-All the presentations, practicals, and datasets that we will use are available on this website. Download the files by clicking on the green "Code" button at the top of this page and unzip the folder on your local machine. Alternatively, you can clone the repository to your workspace using GitHub.
+All the presentations, practicals, and datasets that we will use are available on this website. Download the files by clicking on the green "Code" button at the top of this page and unzip the folder on your local machine (note the location of the files you download). 
+
+Alternatively, you can clone the repository to your own workspace using GitHub.
 
 ## Installation and set-up
-This workshop will require a suite of somewhat specialised packages that depend on some low-level libraries which are non-trivial to install (especially on Windows). I recommend that you use the [conda](https://docs.conda.io/projects/conda/en/latest/index.html) package manager to install them on your system (and not something like `pip`).
+This workshop will require a suite of somewhat specialised packages that depend on spatial libraries which are non-trivial to install (especially on Windows). 
 
-First install conda (or [miniconda](https://docs.conda.io/en/latest/miniconda.html)) on your system following the instructions on their site. 
+If you want to install the software and run the practicals on your local machine, I recommend that you use the [conda](https://docs.conda.io/projects/conda/en/latest/index.html) package manager to install them on your system (and not something like `pip`).
 
-Then enter your terminal or command prompt program. Navigate to the folder location where you have downloaded or cloned the workshop files. Finally, create a new conda environment and install all the required packages and their dependencies by running this command:
+First, install `conda` (or [miniconda](https://docs.conda.io/en/latest/miniconda.html)) on your system following the instructions on their site. 
+
+Next, open your terminal program (if on Linux) or anaconda command program. Navigate to the folder location where you have downloaded or cloned the workshop files. 
+
+Finally, create a new conda environment and install all the required packages and their dependencies by running this command:
 
 ```
 conda env create -f environment.yml 
 ```
 
-This will take a few moments to download and install all the packages. You may be prompted to confirm the installation. When that step has finished, test your install by running the following small script.
+This will take a few moments to download and install all the packages. You may be prompted to confirm the installation. When that step has finished, test your install by running the following small script (located in the workshop folder).
+
+Enable the environment:
 
 ```
-# enable the environment
 conda activate py-geospatial-2020
+```
 
-# run the test script from the workshop files
+Run the test script from the workshop files:
+
+```
 python check_setup.py
 ```
 
-The practicals use [Jupyter Notebooks](https://jupyter.org/index.html). If you want to run the notebooks locally on your machine, you will need to have Jupyter installed. This step can also be done in conda. From the command prompt enter:
+The practicals use [Jupyter Notebooks](https://jupyter.org/index.html). If you want to run the notebooks locally on your machine, you will need to have Jupyter installed. This step can also be done within conda. From the command prompt enter:
 
 ```
 conda install -c conda-forge notebook
@@ -61,9 +73,19 @@ Then launch the interface by typing the following in the command prompt:
 jupyter notebook
 ```
 
-Alternatively, if you can't install things locally, the practical notebooks can be run in Binder through this link: [https://mybinder.org/v2/gh/wcjochem/py-geospatial-2020/master](https://mybinder.org/v2/gh/wcjochem/py-geospatial-2020/master). Note that Binder has some resource limitations on processing power and memory.
+The workshop folder contains all the Practicals in notebook format in the `notebooks` directory.
+
+### Non-installation alternative 
+Alternatively, if you can't (or don't want to) install Python locally, the practical notebooks can be run in Binder through this link: [https://mybinder.org/v2/gh/wcjochem/py-geospatial-2020/master](https://mybinder.org/v2/gh/wcjochem/py-geospatial-2020/master). Be patient when first loading the repository.
+
+Note that Binder has some resource limitations on processing power and memory. Importantly, you will need to manually save any files you modify/create in Binder as they will not persist after your session.
 
 ### Acknowledgements
-This workshop benefited from 
+This workshop benefited from several sources of teaching materials and coding examples, especially:
+* Arribas-Bel, Dani. (2019). "A course on Geographic Data Science." *The Journal of Open Source Education*, 2(14). [https://doi.org/10.21105/jose.00042](https://doi.org/10.21105/jose.00042).
+* [AugtoGIS course](https://automating-gis-processes.github.io/site/#) by Henrikki Tenkanen and Vuokko Heikinheimo. 
+* [Introduction to Geospatial Data Analysis with Python](https://github.com/geopandas/scipy2018-geospatial-data) Scipy 2018 Tutorial by Wolf, Rey, Arribas-Bel, and Van den Bossche
+
+We thank the authors for making their materials open. If you re-use or share this course material, please acknowledge this course and the original sources.
 
 
