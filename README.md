@@ -10,7 +10,7 @@ No previous experience with spatial data is expected. Participants should have e
 
 This workshop is offered by the EPSRC Centre for Doctoral Training in Next Generation Computational Modelling ([CDT-NGCM](http://www.ngcm.soton.ac.uk/))
 
-Registration on EnventBrite: https://www.eventbrite.co.uk/e/cdt-ngcm-introduction-to-spatial-data-analysis-and-mapping-with-python-tickets-113099585906
+Registration on EventBrite: https://www.eventbrite.co.uk/e/cdt-ngcm-introduction-to-spatial-data-analysis-and-mapping-with-python-tickets-113099585906
 
 ### Instructors
 * [Chris Jochem](https://www.wcjochem.com) - [WorldPop](https://www.worldpop.org) in the [School of Geography and Environmental Science](https://www.southampton.ac.uk/geography), Univ. of Southampton
