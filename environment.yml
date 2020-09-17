@@ -5,6 +5,7 @@ dependencies:
     - geopandas
     - pygeos
     - pyproj
+    - geopy
     - contextily
     - rasterio
     - geoplot
